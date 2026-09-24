@@ -1,0 +1,18 @@
+{
+  "model_name": "RandomForest",
+  "features": [
+    "income",
+    "credit_score",
+    "loan_amount",
+    "years_employed",
+    "points",
+    "debt_to_income"
+  ],
+  "accuracy": 1.0,
+  "roc_auc": 0.9999999999999999,
+  "cv_results": {
+    "RandomForest": 1.0,
+    "GradientBoosting": 1.0,
+    "LogisticRegression": 0.9999841515115495
+  }
+}
